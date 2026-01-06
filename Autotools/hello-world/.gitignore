@@ -1,0 +1,7 @@
+compile
+configure
+depcomp
+missing
+install-sh
+aclocal.m4
+*.in
