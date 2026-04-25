@@ -6,6 +6,7 @@ learn how to build stuff
     - Autotools
     - CMake
     - Meson
+    - smart/unique pointer
 - java
     - Maven
     - Gradle
