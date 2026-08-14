@@ -62,8 +62,8 @@ int main() {
   Auto_ptr<Resource> *ptr_tommy = new Auto_ptr<Resource>(new Resource("tommy"));
   delete ptr_tommy;
   Auto_ptr<Resource> ptr_cj(new Resource("cj"));
-  // without moving ownership to ptr_cj_clone,
-  // a second delete happens after cj is gone
+  // without moving ownership to ptr_cj_clone (e.g. without that = op override
+  // above), a second delete happens after cj is gone
   // Auto_ptr<Resource> ptr_cj_clone = ptr_cj;
   Auto_ptr<Resource> ptr_cj_clone(ptr_cj);
   Auto_ptr<Resource> ptr_cj_clone_clone = ptr_cj_clone;
