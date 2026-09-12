@@ -7,6 +7,8 @@ learn how to build stuff
     - CMake
     - Meson
     - smart/unique pointer
+    - Network
+        - make a little gambling game and let agents play with you
 - java
     - Maven
     - Gradle
