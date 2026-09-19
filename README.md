@@ -7,8 +7,25 @@ learn how to build stuff
     - CMake
     - Meson
     - smart/unique pointer
+    - debug/sanitizer tooling
+        - gdb
+        - valgrind
+        - AddressSanitizer / UBSan
+        - perf
+    - testing
+        - GoogleTest or Catch2 under CMake
+    - parallel
+        - OpenMP
+        - MPI
+        - Slurm array jobs
     - Network
+        - non-blocking I/O: select/poll -> epoll -> threads vs event loop
         - make a little gambling game and let agents play with you
+- rust
+    - ownership/borrowing (maps onto move + unique_ptr)
+    - cargo
+    - tokio
+        - rewrite the network game
 - java
     - Maven
     - Gradle
@@ -19,10 +36,18 @@ learn how to build stuff
     - meson-python
     - flit
     - maturin (python + rust)
+    - scikit-build-core + nanobind
+    - pytest
     - ml
         - triton
         - helion
         - raw cuda c++
+        - profiling
+            - Nsight Compute (ncu)
+            - roofline, memory-bound vs compute-bound
         - learning tasks
-            - impl matrix inverse and some decompositions
+            - tiled matmul
+            - fused softmax
+            - fused attention
+            - impl Cholesky and QR decompositions, then matrix inverse
             - regression
