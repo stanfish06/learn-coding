@@ -1,0 +1,27 @@
+[project]
+name = "learn-triton"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Stan", email = "zyyu@umich.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "tensorflow[and-cuda]",
+    "triton>=3.8.0",
+]
+
+[project.scripts]
+tutorial = "learn_triton.tutorial:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

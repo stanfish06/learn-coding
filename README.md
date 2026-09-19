@@ -19,3 +19,10 @@ learn how to build stuff
     - meson-python
     - flit
     - maturin (python + rust)
+    - ml
+        - triton
+        - helion
+        - raw cuda c++
+        - learning tasks
+            - impl matrix inverse and some decompositions
+            - regression
