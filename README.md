@@ -41,6 +41,7 @@ learn how to build stuff
     - ml
         - triton
         - helion
+        - mojo?
         - raw cuda c++
         - profiling
             - Nsight Compute (ncu)
