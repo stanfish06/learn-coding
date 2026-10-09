@@ -1,0 +1,28 @@
+[project]
+name = "rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Stan", email = "zyyu@umich.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[classic-control]>=1.4.0",
+    "torch",
+    "torchvision",
+    "tensorflow[and-cuda]",
+    "matplotlib>=3.11.2",
+]
+
+[project.scripts]
+pg = "rl.policy_gradient:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

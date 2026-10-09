@@ -1,0 +1,4 @@
+data/
+.env
+mise.local.env
+__pycache__
