@@ -220,6 +220,7 @@ def grpo(task: str, adapter: str = ""):
                 report_to=["trackio"],
                 project=output_dir,
                 push_to_hub=True,
+                trackio_static_space_id=False,
                 save_strategy="steps",
                 save_steps=50,
                 fp16=True,
