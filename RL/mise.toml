@@ -1,0 +1,9 @@
+[tools]
+uv = "latest"
+
+[settings]
+python.uv_venv_auto = true
+
+[env]
+CUDA_DEVICE_ORDER="PCI_BUS_ID"
+CUDA_VISIBLE_DEVICES=1
