@@ -1,0 +1,3 @@
+[submodule "Kube/myRedis"]
+	path = Kube/myRedis
+	url = git@github.com:stanfish06/myRedis.git
