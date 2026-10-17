@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "Applications",
+      "keywords": [
+        "music",
+        "audio"
+      ],
+      "terms": [
+        "songs"
+      ],
+      "lastUsedAt": 1699914600
+    },
+    {
+      "id": "support",
+      "name": "Support Ticket",
+      "category": "Applications",
+      "keywords": [
+        "help"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699996400
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "alias": "gh",
+      "category": "Applications",
+      "keywords": [
+        "git",
+        "repo"
+      ],
+      "terms": [
+        "code"
+      ],
+      "lastUsedAt": 1699740800
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "category": "Applications",
+      "keywords": [
+        "git"
+      ],
+      "terms": [],
+      "lastUsedAt": 1696540800
+    },
+    {
+      "id": "gist",
+      "name": "Create Gist",
+      "keywords": [
+        "git",
+        "paste",
+        "clip"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699918200
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "category": "Applications",
+      "keywords": [
+        "shell",
+        "git",
+        "zsh"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699995600
+    },
+    {
+      "id": "goog",
+      "name": "Google Search",
+      "keywords": [
+        "web",
+        "internet"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699999200
+    },
+    {
+      "id": "finder",
+      "name": "Finder",
+      "category": "Applications",
+      "keywords": [
+        "files"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699700000
+    },
+    {
+      "id": "notes",
+      "name": "Quick Notes",
+      "keywords": [
+        "notes"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699990000
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "keywords": [
+        "forecast"
+      ],
+      "terms": [],
+      "lastUsedAt": 1699980000
+    }
+  ]
+}
